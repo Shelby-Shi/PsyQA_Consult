@@ -10,8 +10,6 @@ function App() {
         <Title/>
       </header>
       <InputBox/>
-
-      
       <OutputBox/>
     </div>
   );
