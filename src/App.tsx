@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import { InputBox, OutputBox, Score, Title } from './component/common'
+import { InputBox, OutputBox, HoverRating, Score, Title } from './component/common'
 
 function App() {
   return (
@@ -11,6 +11,9 @@ function App() {
       </header>
       <InputBox/>
       <OutputBox/>
+
+      <HoverRating/>
+
     </div>
   );
 }
