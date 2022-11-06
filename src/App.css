@@ -38,6 +38,5 @@
 }
 
 .rating-place {
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
