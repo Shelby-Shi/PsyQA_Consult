@@ -5,8 +5,8 @@ import './App.css';
 import { InputBox, OutputBox, HoverRating, Score, Title } from './component/common'
 
 function App() {
-  const [input, set_input] = useState("please");
-  const [output, set_output] = useState("output");
+  const [input, set_input] = useState("please type in your question with chinese language and ended with question mark");
+  const [output, set_output] = useState("answer");
 
   const [get_val, set_get_val] = useState(false)
 
